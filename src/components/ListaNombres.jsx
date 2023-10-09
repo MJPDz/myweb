@@ -19,7 +19,7 @@ export const ListaNombres = () => {
         onChange={(e) => setNombre(e.target.value)}
       />
       <button onClick={guardar}>
-        Enviar
+        Mostrar
       </button>
       <ul>
         {
